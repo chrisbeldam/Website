@@ -86,7 +86,7 @@ header.masthead h1 {
 }
 
 .features-icons .features-icons-item:hover .features-icons-icon i {
-  font-size: 5rem;
+  font-size: 6rem;
 }
 
 .call-to-action {
@@ -114,4 +114,8 @@ header.masthead h1 {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+footer.footer i:hover {
+  font-size: 3rem;
 }
