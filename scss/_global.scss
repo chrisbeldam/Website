@@ -1,6 +1,9 @@
 body {
   @include body-font;
 }
+p {
+  font-size:14px;
+}
 
 h1,
 h2,
