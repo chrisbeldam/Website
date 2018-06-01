@@ -109,10 +109,9 @@ header.banner h1 {
   }
 }
 
-.call-to-action {
+.github-activity {
   position: relative;
-  background-color: #343a40;
-  background: url("../img/calltoaction.jpg") no-repeat center center;
+  background: url("/img/calltoaction.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -121,7 +120,7 @@ header.banner h1 {
   padding-bottom: 7rem;
 }
 
-.call-to-action .overlay {
+.github-activity .overlay {
   position: absolute;
   background-color: #212529;
   height: 100%;

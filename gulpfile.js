@@ -4,8 +4,8 @@ var header = require('gulp-header');
 var cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
 var pkg = require('./package.json');
+var gulpImg = require('gulp-imagemin');
 var browserSync = require('browser-sync').create();
-
 
 // Copy third party libraries from /node_modules into /vendor
 gulp.task('vendor', function() {
@@ -92,8 +92,17 @@ gulp.task('browserSync', function() {
   });
 });
 
+// Images 
+gulp.task('gulpImg', () =>
+    gulp.src('img/*')
+    .pipe(gulpImg())
+    .pipe(gulp.dest('./minimg/'))
+);
+
+
 // Dev task
-gulp.task('dev', ['css', 'browserSync'], function() {
+gulp.task('dev', ['css', 'browserSync','gulpImg'], function() {
   gulp.watch('./scss/*.scss', ['css']);
   gulp.watch('./*.html', browserSync.reload);
 });
+
