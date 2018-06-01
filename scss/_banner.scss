@@ -16,7 +16,13 @@ header.banner {
   }
 
   p {
-    font-size:14px;
+    font-size:18px;
+  }
+
+  a:hover{
+    text-decoration: none;
+    color: #007bff;
+    border-bottom: 2px solid white;
   }
 
   .portfolio-header{

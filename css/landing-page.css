@@ -39,7 +39,13 @@ header.banner .overlay {
 }
 
 header.banner p {
-  font-size: 14px;
+  font-size: 18px;
+}
+
+header.banner a:hover {
+  text-decoration: none;
+  color: #007bff;
+  border-bottom: 2px solid white;
 }
 
 header.banner .portfolio-header {
