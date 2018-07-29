@@ -63,7 +63,10 @@ header.banner h1 {
     padding-bottom: 12rem;
   }
   header.banner h1 {
-    font-size: 3rem;
+    font-size: 2rem;
+  }
+  header.banner p {
+    font-size: 14px;
   }
 }
 
