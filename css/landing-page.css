@@ -24,8 +24,8 @@ header.banner {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 header.banner .overlay {
@@ -54,7 +54,7 @@ header.banner .portfolio-header {
 }
 
 header.banner h1 {
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 @media (min-width: 768px) {
@@ -83,11 +83,14 @@ header.banner h1 {
   .showcase .showcase-text {
     padding: 7rem;
   }
+  .showcase .showcase-img {
+    height: 50%;
+  }
 }
 
 .features-icons {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .features-icons .features-icons-item {
