@@ -19,10 +19,18 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .features-icons-icon {
     i {
       font-size: 3rem;
+    }
+  }
+  .features-icons .features-icons-item .features-icons-icon {
+    i {
+      font-size:2.5rem;
+    }
+    .features-icons .features-icons-item:hover .features-icons-icon i {
+      font-size: 4.5rem;
     }
   }
 }
