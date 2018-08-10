@@ -59,14 +59,14 @@ header.banner h1 {
 
 @media (max-width: 768px) {
   header.banner {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
   }
   header.banner h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   header.banner p {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -110,6 +110,10 @@ header.banner h1 {
 }
 
 @media (max-width: 768px) {
+  .features-icons {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
   .features-icons-icon i {
     font-size: 3rem;
   }
@@ -140,6 +144,12 @@ header.banner h1 {
   top: 0;
   left: 0;
   opacity: 0.3;
+}
+
+@media (max-width: 768px) {
+  .gh-chart {
+    width: 75%;
+  }
 }
 
 footer.footer {

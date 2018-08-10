@@ -20,6 +20,10 @@
 }
 
 @media (max-width: 768px) {
+  .features-icons {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
   .features-icons-icon {
     i {
       font-size: 3rem;
@@ -27,7 +31,7 @@
   }
   .features-icons .features-icons-item .features-icons-icon {
     i {
-      font-size:2.5rem;
+      font-size: 2.5rem;
     }
     .features-icons .features-icons-item:hover .features-icons-icon i {
       font-size: 4.5rem;

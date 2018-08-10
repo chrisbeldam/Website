@@ -33,14 +33,15 @@ header.banner {
   h1 {
     font-size: 4rem;
   }
+
   @media (max-width: 768px) {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
     h1 {
-      font-size: 2rem;
+      font-size: 2.5rem;
     }
     p {
-      font-size: 14px;
+      font-size: 16px;
     }
   }
 }
