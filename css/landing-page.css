@@ -119,7 +119,8 @@ header.banner h1 {
   }
   .features-icons .features-icons-item .features-icons-icon i {
     font-size: 3.5rem;
-    margin-left: 6rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
   .features-icons .features-icons-item .features-icons-icon .features-icons .features-icons-item:hover .features-icons-icon i {
     font-size: 5.5rem;
